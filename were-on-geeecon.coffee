@@ -30,13 +30,15 @@ html, body {
   width: 50%;
   margin: 0 auto;
   padding: 15px;
-  max-height: 350px;
+  max-height: 700px;
   overflow: auto;
   background-color: #fff;
+  padding-top: 75px
 }'''
 
 geecon_overlay_html = '''
-<div style="background: url(https://github.com/ktoso/were-on-geecon/raw/master/geecon_logo.gif)">
+<div style="text-align: center; padding-top: 100px">
+  <img src="geecon_logo.gif">
 </div>
 '''
 
