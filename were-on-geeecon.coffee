@@ -36,7 +36,7 @@ html, body {
 }'''
 
 geecon_overlay_html = '''
-<div style="background: url(geecon_logo.png)">
+<div style="background: url(https://github.com/ktoso/were-on-geecon/raw/master/geecon_logo.gif)">
 </div>
 '''
 
