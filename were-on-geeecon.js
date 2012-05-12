@@ -39,12 +39,6 @@
     return setTimeout('hide_gc()', 3000);
   };
 
-  window.hide_gc = function() {
-    var gc;
-    gc = $('.wereongeecon');
-    return gc.fadeOut('slow', function() {
-      return gc.detach();
-    });
-  };
+  window.hide_gc = function() {};
 
 }).call(this);

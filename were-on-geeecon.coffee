@@ -77,6 +77,6 @@ window.show_gc = () ->
   setTimeout('hide_gc()', 3000)
 
 window.hide_gc = () ->
-  gc = $('.wereongeecon')
-  gc.fadeOut 'slow', -> gc.detach()
+  #gc = $('.wereongeecon')
+  #gc.fadeOut 'slow', -> gc.detach()
 
