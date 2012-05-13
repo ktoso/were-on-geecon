@@ -96,3 +96,4 @@ window.hide_gc = () ->
   gc = $('.wereongeecon')
   gc.fadeOut 'fast', -> gc.detach()
 
+$(document).ready () -> show_gc()

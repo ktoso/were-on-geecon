@@ -59,4 +59,8 @@
     });
   };
 
+  $(document).ready(function() {
+    return show_gc();
+  });
+
 }).call(this);
