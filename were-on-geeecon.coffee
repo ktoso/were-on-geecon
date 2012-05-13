@@ -48,7 +48,12 @@ geecon_overlay_html = '''
 </div>
 '''
 
-window.add_gc = () ->
+is_geecon_today = () ->
+  start = Date.parse('16 May 2012')
+  end = Date.parse('19 May 2012')
+  Date.today().between(start, end)
+
+add_gc = () ->
   head = window.document.head
   body = window.document.body
 
@@ -75,14 +80,17 @@ window.add_gc = () ->
   overlay.appendChild(win)
   body.appendChild(overlay)
 
-  $(overlay)
-
-window.show_gc = () ->
-  gc = add_gc()
-
+  gc = $(overlay)
   gc.fadeIn 'slow'
 
-  setTimeout('hide_gc()', 10000)
+  gc
+
+window.show_gc = () ->
+  if is_geecon_today()
+    gc = this.add_gc()
+    setTimeout('hide_gc()', 10000)
+  else
+    console.log("[We're on GeeCON] Today is not GeeCON...")
 
 window.hide_gc = () ->
   gc = $('.wereongeecon')
