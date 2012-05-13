@@ -87,7 +87,7 @@ add_gc = () ->
 
 window.show_gc = () ->
   if is_geecon_today()
-    gc = this.add_gc()
+    gc = add_gc()
     setTimeout('hide_gc()', 10000)
   else
     console.log("[We're on GeeCON] Today is not GeeCON...")

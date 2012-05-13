@@ -44,7 +44,7 @@
   window.show_gc = function() {
     var gc;
     if (is_geecon_today()) {
-      gc = this.add_gc();
+      gc = add_gc();
       return setTimeout('hide_gc()', 10000);
     } else {
       return console.log("[We're on GeeCON] Today is not GeeCON...");
