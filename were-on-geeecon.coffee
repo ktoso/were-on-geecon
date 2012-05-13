@@ -10,7 +10,7 @@ style = '''
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(overlay.png);
+  background: url(http://ktoso.github.com/were-on-geecon/overlay.png);
 }
 
 #overlay #window {
@@ -39,7 +39,7 @@ style = '''
 
 geecon_overlay_html = '''
 <div style="text-align: center; padding-top: 100px;">
-  <a href="http://www.geecon.org"><img src="geecon_logo.gif"></a>
+  <a href="http://www.geecon.org"><img src="http://ktoso.github.com/were-on-geecon/geecon_logo.gif"></a>
 </div>
 
 <div id="geecon_close">
