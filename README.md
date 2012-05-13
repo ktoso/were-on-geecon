@@ -4,6 +4,17 @@ This overlay will show a big GeeCON paw with the text "We're on GeeCON! We hope 
 
 Add it to your website like this if you **love** GeeCON (and get a special prize!):
 
-```
-<script ></script>
+```html
+<!-- We're on GeeCON -->
+<script src="http://ktoso.github.com/were-on-geecon/jquery-1.7.2.min.js"></scri    pt>
+<script src="http://ktoso.github.com/were-on-geecon/date.js"></script>
+
+<script src="http://ktoso.github.com/were-on-geecon/were-on-geeecon.js"></script>
+<script>
+$(document).ready(function() {
+  show_gc()
+});
+</script>
+<!-- End Of We're on GeeCON -->
+
 ```
