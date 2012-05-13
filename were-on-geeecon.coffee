@@ -1,12 +1,4 @@
 style = '''
-#d2, #d3 { display: none; }
-
-html, body {
-  overflow: hidden;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
 .wereongeecon {
   display: none;
 }
@@ -34,11 +26,24 @@ html, body {
   overflow: auto;
   background-color: #fff;
   padding-top: 75px
-}'''
+}
+
+#geecon_close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 3em;
+  font-weight: bold;
+}
+'''
 
 geecon_overlay_html = '''
 <div style="text-align: center; padding-top: 100px">
   <img src="geecon_logo.gif">
+</div>
+
+<div id="geecon_close">
+<a href="#" onclick="hide_gc()">[X]</a>
 </div>
 '''
 
@@ -79,6 +84,6 @@ window.show_gc = () ->
   setTimeout('hide_gc()', 3000)
 
 window.hide_gc = () ->
-  #gc = $('.wereongeecon')
-  #gc.fadeOut 'slow', -> gc.detach()
+  gc = $('.wereongeecon')
+  gc.fadeOut 'fast', -> gc.detach()
 
