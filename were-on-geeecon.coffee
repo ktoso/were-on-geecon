@@ -38,12 +38,12 @@ style = '''
 '''
 
 geecon_overlay_html = '''
-<div style="text-align: center; padding-top: 100px">
-  <img src="geecon_logo.gif">
+<div style="text-align: center; padding-top: 100px;">
+  <a href="http://www.geecon.org"><img src="geecon_logo.gif"></a>
 </div>
 
 <div id="geecon_close">
-<a href="#" onclick="hide_gc()">[X]</a>
+  <a href="#" onclick="hide_gc()">[X]</a>
 </div>
 '''
 
@@ -81,7 +81,7 @@ window.show_gc = () ->
 
   gc.fadeIn 'slow'
 
-  setTimeout('hide_gc()', 3000)
+  setTimeout('hide_gc()', 10000)
 
 window.hide_gc = () ->
   gc = $('.wereongeecon')
