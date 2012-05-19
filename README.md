@@ -30,5 +30,8 @@ Awesome, but how will look like on my page?
 
 You can see a preview on java.pl:
 
-
+On java.pl (has white background):
 ![We're on GeeCON DEMO](http://ktoso.github.com/were-on-geecon/demo.png)
+
+On blog.project13.pl (has dark background):
+![We're on GeeCON DEMO](http://ktoso.github.com/were-on-geecon/demo_blog_project13.pl.png)
