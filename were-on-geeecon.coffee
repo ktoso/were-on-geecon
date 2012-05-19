@@ -27,6 +27,7 @@ style = '''
   background-color: #fff;
   padding-top: 75px
   z-index: 999999;
+  cursor: pointer;
 }
 
 #geecon_close {
