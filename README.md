@@ -1,6 +1,14 @@
+What's "We're on GeeCON"?
+=========================
+
 A small joke from the GeeCON team :-)
 
 This overlay will show a big GeeCON paw with the text "We're on GeeCON! We hope are you too!" which will hide in 3 seconds or less. It will only show when the date is "GeeCON time"!
+
+Install
+=======
+
+**Note: It will only show between the 16th and 19th May 2012 - that's when the GeeKs hack @ GeeCON!**
 
 Add it to your website like this if you **love** GeeCON (and get a special prize!):
 
@@ -12,5 +20,13 @@ Add it to your website like this if you **love** GeeCON (and get a special prize
 
 <script src="http://ktoso.github.com/were-on-geecon/were-on-geeecon.js"></script>
 <!-- End Of We're on GeeCON -->
-
 ```
+
+Demo
+====
+Awesome, but how will look like on my page?
+
+You can see a preview on java.pl:
+
+
+![We're on GeeCON DEMO](http://ktoso.github.com/were-on-geecon/demo.png)
