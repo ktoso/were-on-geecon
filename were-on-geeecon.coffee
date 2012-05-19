@@ -49,6 +49,8 @@ geecon_overlay_html = '''
 </div>
 '''
 
+timeout = 10000
+
 is_geecon_today = () ->
   start = Date.parse('16 May 2012')
   end = Date.parse('19 May 2012')
@@ -89,7 +91,7 @@ add_gc = () ->
 window.show_gc = () ->
   if is_geecon_today()
     gc = add_gc()
-    setTimeout('hide_gc()', 10000)
+    setTimeout('hide_gc()', timeout)
   else
     console.log("[We're on GeeCON] Today is not GeeCON...")
 

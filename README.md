@@ -22,6 +22,8 @@ Add it to your website like this if you **love** GeeCON (and get a special prize
 <!-- End Of We're on GeeCON -->
 ```
 
+The overlay will display for `10 seconds` and fadeOut. If you want to chage that time, feel free to do so (just for this repo ;-)).
+
 Demo
 ====
 Awesome, but how will look like on my page?
